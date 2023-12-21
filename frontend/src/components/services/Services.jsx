@@ -11,10 +11,14 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX and GRAPHIC Design</h3>
+            <h3>UI/UX & GRAPHIC Design</h3>
           </div>
 
           <ul className="service__list">
+            <li>
+              <IoIosCheckmark className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet.</p>
+            </li>
             <li>
               <IoIosCheckmark className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet.</p>
@@ -66,6 +70,14 @@ const Services = () => {
               <IoIosCheckmark className="service__list-icon" />
               <p>Lorem ipsum dolor sit amet.</p>
             </li>
+            <li>
+              <IoIosCheckmark className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet.</p>
+            </li>
+            <li>
+              <IoIosCheckmark className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet.</p>
+            </li>
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT */}
@@ -84,6 +96,10 @@ const Services = () => {
             <li>
               <IoIosCheckmark className="service__list-icon" />
               <p>Research & Development</p>
+            </li>
+            <li>
+              <IoIosCheckmark className="service__list-icon" />
+              <p>Typing</p>
             </li>
             <li>
               <IoIosCheckmark className="service__list-icon" />
