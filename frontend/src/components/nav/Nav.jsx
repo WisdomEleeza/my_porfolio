@@ -28,19 +28,20 @@ const Nav = () => {
         <FaRegUser />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
-      >
-        <GrServices />
-      </a>
-      <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
         <IoIosBookmarks />
       </a>
+      <a
+        href="#services"
+        onClick={() => setActiveNav("#services")}
+        className={activeNav === "#services" ? "active" : ""}
+      >
+        <GrServices />
+      </a>
+
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
