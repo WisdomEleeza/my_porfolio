@@ -1,12 +1,11 @@
-import React from 'react'
-import './about.css'
+import React from "react";
+import "./about.css";
 
 const About = () => {
   return (
-    <section id='about'>
-      About 
-    </section>
-  )
-}
+    // general style for section in index.css
+    <section id="about">About</section>
+  );
+};
 
-export default About
+export default About;
