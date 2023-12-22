@@ -103,7 +103,7 @@ const Services = () => {
             </li>
             <li>
               <IoIosCheckmark className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Data Collection</p>
             </li>
             <li>
               <IoIosCheckmark className="service__list-icon" />
