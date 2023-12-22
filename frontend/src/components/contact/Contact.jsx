@@ -13,7 +13,7 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineMail />
+            <MdOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>whiy07@gmail.com</h5>
             <a href="mailto:whiy07@gmail.com" target="_blank" rel="noreferrer">
@@ -21,7 +21,7 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <FaFacebookMessenger />
+            <FaFacebookMessenger className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>Whizzdrums Eleeza</h5>
             <a
@@ -33,7 +33,7 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <FaWhatsapp />
+            <FaWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <h5>+233 509208764</h5>
             <a
@@ -61,7 +61,9 @@ const Contact = () => {
             rows="10"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">Send Messsage</button>
+          <button type="submit" className="btn btn-primary">
+            Send Messsage
+          </button>
         </form>
       </div>
     </section>
